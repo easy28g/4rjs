@@ -4,7 +4,7 @@ import classes from './Profile.module.css';
 
 const Profile = () => {
     return(
-        <div className={classes.content}>
+        <div>
           <div>
             <img src='https://v-thailand.com/wp-content/uploads/2015/01/Plyazhi-Samui.jpg' />
           </div>
