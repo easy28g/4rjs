@@ -1,16 +1,11 @@
 import React from 'react';
 import MyPosts from './MyPosts/MyPosts.jsx';
-import classes from './Profile.module.css';
+import ProfileInfo from './ProfileInfo/ProfileInfo.jsx';
 
 const Profile = () => {
     return(
         <div>
-          <div>
-            <img src='https://v-thailand.com/wp-content/uploads/2015/01/Plyazhi-Samui.jpg' />
-          </div>
-          <div>
-            ava+description
-          </div>
+          <ProfileInfo />
           <MyPosts />
         </div>
     );
